@@ -45,7 +45,7 @@ private:
 
 namespace
 {
-  // Create led_b5 on portb.5.
+  // Create led_b0 on portb.5.
   const led led_b5
   {
     mcal::reg::portb,
@@ -59,5 +59,12 @@ int main()
   for(;;)
   {
     led_b5.toggle();
+    int counter = 0;
+    while(counter < 10000 )
+    {
+    	asm(" NOP");
+    	counter++;
+    }
+
   }
 }
