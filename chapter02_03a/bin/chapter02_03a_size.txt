@@ -1,0 +1,13 @@
+bin/chapter02_03a.elf  :
+section       size      addr
+.data            0   8388864
+.isr_vector    112         0
+.startup       208       112
+.text         1520       320
+.bss            50   8388864
+.comment        17         0
+.stab          156         0
+.stabstr       303         0
+Total         2366
+
+

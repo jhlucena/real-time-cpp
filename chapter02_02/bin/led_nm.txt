@@ -10,13 +10,26 @@
 0000004c W __do_global_ctors
 00000064 T __ctors_start
 00000066 T __ctors_end
-00000066 W __tablejump__
-0000006e 00000012 T main
-00000080 0000001e t _GLOBAL__sub_I_main
-0000009e A __data_load_start
-00800100 B __bss_start
-00800100 D __data_end
+00000066 0000009a T main
+00000100 00000044 t _Z41__static_initialization_and_destruction_0ii
+00000144 0000001a t _GLOBAL__sub_I_main
+0000015e W __tablejump__
+00000166 00000094 W _ZN3ledC1Ehh
+00000166 00000094 W _ZN3ledC2Ehh
+000001fa 00000044 W _ZNK3led6toggleEv
+0000023e A __data_load_start
+00800100 00000001 d _ZN4mcal3regL5portbE
 00800100 D __data_start
-00800100 00000002 b _ZN12_GLOBAL__N_1L6led_b5E
-00800102 B __bss_end
+00800101 00000001 d _ZN4mcal3regL5bval0E
+00800102 00000001 d _ZN4mcal3regL5bval1E
+00800103 00000001 d _ZN4mcal3regL5bval2E
+00800104 00000001 d _ZN4mcal3regL5bval3E
+00800105 00000001 d _ZN4mcal3regL5bval4E
+00800106 00000001 d _ZN4mcal3regL5bval5E
+00800107 00000001 d _ZN4mcal3regL5bval6E
+00800108 00000001 d _ZN4mcal3regL5bval7E
+0080010a 00000002 b _ZN12_GLOBAL__N_1L6led_b5E
+0080010a B __bss_start
+0080010a D __data_end
+0080010c B __bss_end
 00800800 A __initial_stack_pointer

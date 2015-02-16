@@ -1,0 +1,327 @@
+Archive member included because of file (symbol)
+
+/Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                              bin/app_led.o (__do_clear_bss)
+/Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+                              bin/app_led.o (__do_global_ctors)
+/Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                              /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o) (__tablejump2__)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 bin/mcal_led.o
+ .text          0x0000000000000000        0x0 bin/mcal_osc.o
+ .text          0x0000000000000000        0x0 bin/mcal_port.o
+ .text          0x0000000000000000        0x0 bin/sys_start.o
+ .text          0x0000000000000000        0x0 bin/crt0.o
+ .text          0x0000000000000000        0x0 bin/crt0_init_ram.o
+ .text          0x0000000000000000        0x0 bin/crt1.o
+ .text          0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .init4         0x0000000000000000       0x10 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .init6         0x0000000000000000       0x16 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000000000        0xc /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x0000000000000000 0x0000000000007fec xr
+RAM              0x0000000000800100 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a
+LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+                0x0000000000000000                _rom_begin = 0x0
+                0x0000000000007fec                _rom_end = 0x7fec
+                0x0000000000800500                _stack_begin = 0x800500
+                0x0000000000800800                _stack_end = 0x800800
+                0x0000000000800800                __initial_stack_pointer = 0x800800
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x2)
+
+.isr_vector     0x0000000000000000       0x70
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0x68 bin/int_vect.o
+                0x0000000000000000                __isr_vector
+                0x0000000000000070                . = ALIGN (0x10)
+ *fill*         0x0000000000000068        0x8 aaaa
+ *(.isr_vector)
+
+.startup        0x0000000000000070       0xd0
+ *(.startup)
+ .startup       0x0000000000000070       0x1c bin/crt0.o
+                0x0000000000000070                __my_startup
+ .startup       0x000000000000008c       0x72 bin/crt0_init_ram.o
+                0x000000000000008c                _ZN3crt8init_ramEv
+ .startup       0x00000000000000fe       0x3c bin/crt1.o
+                0x00000000000000fe                _ZN3crt10init_ctorsEv
+                0x0000000000000140                . = ALIGN (0x10)
+ *fill*         0x000000000000013a        0x6 aaaa
+ *(.startup)
+
+.text           0x0000000000000140      0x5f0
+                0x0000000000000140                _ctors_begin = .
+ *(.ctors)
+ .ctors         0x0000000000000140        0x2 bin/app_led.o
+ .ctors         0x0000000000000142        0x2 bin/mcal_led.o
+                0x0000000000000144                . = ALIGN (0x2)
+ *(SORT(.ctors))
+                0x0000000000000144                _ctors_end = .
+ *(.progmem*)
+                0x0000000000000144                . = ALIGN (0x2)
+ *(.trampolines*)
+ .trampolines   0x0000000000000144        0x0 linker stubs
+                0x0000000000000144                . = ALIGN (0x2)
+ *(.text)
+ .text          0x0000000000000144       0x5a bin/app_led.o
+                0x0000000000000144                _ZN3app3led9task_initEv
+                0x000000000000014e                _ZN3app3led9task_funcEv
+ .text          0x000000000000019e        0xc bin/mcal.o
+                0x000000000000019e                _ZN4mcal4initEv
+ .text          0x00000000000001aa       0xc0 bin/mcal_gcc_cxx_completion.o
+                0x00000000000001aa                _ZNSt6chrono21high_resolution_clock3nowEv
+                0x00000000000001d6                _Znwj
+                0x0000000000000200                _ZdlPv
+                0x0000000000000202                abort
+                0x0000000000000206                atexit
+                0x000000000000020c                at_quick_exit
+                0x0000000000000212                _Exit
+                0x0000000000000216                exit
+                0x000000000000021a                quick_exit
+                0x000000000000021e                _exit
+                0x0000000000000224                _isatty
+                0x000000000000022a                _lseek
+                0x0000000000000230                _open
+                0x0000000000000236                _close
+                0x000000000000023c                _read
+                0x0000000000000242                _write
+                0x0000000000000248                _fstat
+                0x000000000000024e                _sbrk
+                0x0000000000000254                _getpid
+                0x000000000000025a                _kill
+                0x0000000000000260                __cxa_pure_virtual
+                0x0000000000000262                __cxa_demangle
+                0x0000000000000268                __cxa_call_terminate
+ .text          0x000000000000026a        0xc bin/mcal_cpu.o
+                0x000000000000026a                _ZN4mcal3cpu4initEv
+                0x0000000000000270                _ZN4mcal3cpu19read_program_memoryEPVh
+ .text          0x0000000000000276       0xbc bin/mcal_gpt.o
+                0x000000000000027c                __vector_16
+                0x00000000000002c8                _ZN4mcal3gpt4initEPKv
+                0x00000000000002e2                _ZN4mcal3gpt6secure16get_time_elapsedEv
+ .text          0x0000000000000332        0x4 bin/mcal_irq.o
+                0x0000000000000332                _ZN4mcal3irq4initEPKv
+ .text          0x0000000000000336       0x2c bin/mcal_wdg.o
+                0x0000000000000336                _ZN4mcal3wdg4initEPKv
+                0x000000000000035e                _ZN4mcal3wdg6secure7triggerEv
+ .text          0x0000000000000362      0x216 bin/os.o
+                0x00000000000003d4                _ZN2os9task_listEv
+                0x00000000000003e4                _ZN2os8start_osEv
+                0x000000000000045a                _ZN2os9set_eventENS_12enum_task_idERKj
+                0x00000000000004b2                _ZN2os9get_eventERj
+                0x0000000000000516                _ZN2os11clear_eventERKj
+ .text          0x0000000000000578      0x16c bin/os_task_control_block.o
+                0x0000000000000578                _ZN2os18task_control_blockC1EPFvvES2_mm
+                0x0000000000000578                _ZN2os18task_control_blockC2EPFvvES2_mm
+                0x00000000000005ce                _ZN2os18task_control_blockC2ERKS0_
+                0x00000000000005ce                _ZN2os18task_control_blockC1ERKS0_
+                0x0000000000000624                _ZN2os18task_control_blockD1Ev
+                0x0000000000000624                _ZN2os18task_control_blockD2Ev
+                0x0000000000000626                _ZNK2os18task_control_block10initializeEv
+                0x000000000000062e                _ZNK2os18task_control_block7executeEv
+                0x00000000000006c0                _ZN2os6secure25get_running_task_iteratorEv
+ .text          0x00000000000006e4        0x4 bin/sys_idle.o
+                0x00000000000006e4                _ZN3sys4idle9task_initEv
+                0x00000000000006e6                _ZN3sys4idle9task_funcEv
+ .text          0x00000000000006e8        0x4 bin/sys_mon.o
+                0x00000000000006e8                _ZN3sys3mon9task_initEv
+                0x00000000000006ea                _ZN3sys3mon9task_funcEv
+ .text          0x00000000000006ec        0xe bin/int_vect.o
+                0x00000000000006ec                __vector_unused_irq
+                0x00000000000006fa                . = ALIGN (0x2)
+ *(.text*)
+ .text.startup  0x00000000000006fa       0x20 bin/app_led.o
+ .text.startup  0x000000000000071a        0x6 bin/mcal_led.o
+ .text.startup  0x0000000000000720        0xa bin/sys_start.o
+                0x0000000000000720                main
+                0x000000000000072a                . = ALIGN (0x2)
+                0x0000000000000730                . = ALIGN (0x10)
+ *fill*         0x000000000000072a        0x6 aaaa
+                0x0000000000800100                . = 0x800100
+                0x0000000000800100                . = ALIGN (0x2)
+
+.data           0x0000000000800100        0x0 load address 0x0000000000000730
+                0x0000000000800100                _data_begin = .
+ *(.data)
+ .data          0x0000000000800100        0x0 bin/app_led.o
+ .data          0x0000000000800100        0x0 bin/mcal.o
+ .data          0x0000000000800100        0x0 bin/mcal_gcc_cxx_completion.o
+ .data          0x0000000000800100        0x0 bin/mcal_cpu.o
+ .data          0x0000000000800100        0x0 bin/mcal_gpt.o
+ .data          0x0000000000800100        0x0 bin/mcal_irq.o
+ .data          0x0000000000800100        0x0 bin/mcal_led.o
+ .data          0x0000000000800100        0x0 bin/mcal_osc.o
+ .data          0x0000000000800100        0x0 bin/mcal_port.o
+ .data          0x0000000000800100        0x0 bin/mcal_wdg.o
+ .data          0x0000000000800100        0x0 bin/os.o
+ .data          0x0000000000800100        0x0 bin/os_task_control_block.o
+ .data          0x0000000000800100        0x0 bin/sys_idle.o
+ .data          0x0000000000800100        0x0 bin/sys_mon.o
+ .data          0x0000000000800100        0x0 bin/sys_start.o
+ .data          0x0000000000800100        0x0 bin/crt0.o
+ .data          0x0000000000800100        0x0 bin/crt0_init_ram.o
+ .data          0x0000000000800100        0x0 bin/crt1.o
+ .data          0x0000000000800100        0x0 bin/int_vect.o
+ .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000800100                . = ALIGN (0x2)
+ *(.data)
+ *(.data*)
+                0x0000000000800100                . = ALIGN (0x2)
+ *(.data*)
+ *(.rodata)
+                0x0000000000800100                . = ALIGN (0x2)
+ *(.rodata)
+ *(.rodata*)
+                0x0000000000800100                . = ALIGN (0x2)
+ *(.rodata*)
+                0x0000000000800100                _data_end = .
+
+.bss            0x0000000000800100       0x32 load address 0x0000000000000730
+                0x0000000000800100                _bss_begin = .
+ *(.bss)
+ .bss           0x0000000000800100        0x4 bin/app_led.o
+ .bss           0x0000000000800104        0x0 bin/mcal.o
+ .bss           0x0000000000800104        0x0 bin/mcal_gcc_cxx_completion.o
+ .bss           0x0000000000800104        0x0 bin/mcal_cpu.o
+ .bss           0x0000000000800104        0x5 bin/mcal_gpt.o
+ .bss           0x0000000000800109        0x0 bin/mcal_irq.o
+ .bss           0x0000000000800109        0x1 bin/mcal_led.o
+                0x0000000000800109                _ZN4mcal3led4led0E
+ .bss           0x000000000080010a        0x0 bin/mcal_osc.o
+ .bss           0x000000000080010a        0x0 bin/mcal_port.o
+ .bss           0x000000000080010a        0x0 bin/mcal_wdg.o
+ .bss           0x000000000080010a       0x26 bin/os.o
+ .bss           0x0000000000800130        0x1 bin/os_task_control_block.o
+ .bss           0x0000000000800131        0x0 bin/sys_idle.o
+ .bss           0x0000000000800131        0x0 bin/sys_mon.o
+ .bss           0x0000000000800131        0x0 bin/sys_start.o
+ .bss           0x0000000000800131        0x0 bin/crt0.o
+ .bss           0x0000000000800131        0x0 bin/crt0_init_ram.o
+ .bss           0x0000000000800131        0x0 bin/crt1.o
+ .bss           0x0000000000800131        0x0 bin/int_vect.o
+ .bss           0x0000000000800131        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800131        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000800131        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000800132                . = ALIGN (0x2)
+ *fill*         0x0000000000800131        0x1 
+ *(.bss)
+ *(.bss*)
+                0x0000000000800132                . = ALIGN (0x2)
+ *(.bss*)
+                0x0000000000800132                _bss_end = .
+                0x0000000000000730                _rom_data_begin = LOADADDR (.data)
+LOAD bin/app_led.o
+LOAD bin/mcal.o
+LOAD bin/mcal_gcc_cxx_completion.o
+LOAD bin/mcal_cpu.o
+LOAD bin/mcal_gpt.o
+LOAD bin/mcal_irq.o
+LOAD bin/mcal_led.o
+LOAD bin/mcal_osc.o
+LOAD bin/mcal_port.o
+LOAD bin/mcal_wdg.o
+LOAD bin/os.o
+LOAD bin/os_task_control_block.o
+LOAD bin/sys_idle.o
+LOAD bin/sys_mon.o
+LOAD bin/sys_start.o
+LOAD bin/crt0.o
+LOAD bin/crt0_init_ram.o
+LOAD bin/crt1.o
+LOAD bin/int_vect.o
+LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a
+END GROUP
+OUTPUT(bin/chapter02_03a.elf elf32-avr)
+LOAD linker stubs
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 bin/app_led.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 bin/mcal.o
+ .comment       0x0000000000000000       0x12 bin/mcal_gcc_cxx_completion.o
+ .comment       0x0000000000000000       0x12 bin/mcal_cpu.o
+ .comment       0x0000000000000000       0x12 bin/mcal_gpt.o
+ .comment       0x0000000000000000       0x12 bin/mcal_irq.o
+ .comment       0x0000000000000000       0x12 bin/mcal_led.o
+ .comment       0x0000000000000000       0x12 bin/mcal_osc.o
+ .comment       0x0000000000000000       0x12 bin/mcal_port.o
+ .comment       0x0000000000000000       0x12 bin/mcal_wdg.o
+ .comment       0x0000000000000000       0x12 bin/os.o
+ .comment       0x0000000000000000       0x12 bin/os_task_control_block.o
+ .comment       0x0000000000000000       0x12 bin/sys_idle.o
+ .comment       0x0000000000000000       0x12 bin/sys_mon.o
+ .comment       0x0000000000000000       0x12 bin/sys_start.o
+ .comment       0x0000000000000000       0x12 bin/crt0.o
+ .comment       0x0000000000000000       0x12 bin/crt0_init_ram.o
+ .comment       0x0000000000000000       0x12 bin/crt1.o
+ .comment       0x0000000000000000       0x12 bin/int_vect.o
+
+.stab           0x0000000000000000       0x9c
+ .stab          0x0000000000000000       0x3c /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                                         0xc0 (size before relaxing)
+ .stab          0x000000000000003c       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+                                         0xe4 (size before relaxing)
+ .stab          0x000000000000006c       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                                         0xa8 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x12f
+ .stabstr       0x0000000000000000      0x12f /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)

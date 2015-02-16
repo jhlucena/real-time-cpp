@@ -1,94 +1,107 @@
 
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 bin/led.o
+ .group         0x0000000000000000        0x8 bin/led.o
+
 Memory Configuration
 
 Name             Origin             Length             Attributes
-ROM              0x00000000         0x00008000         xr
-RAM              0x00800100         0x0000039c         rw !x
-*default*        0x00000000         0xffffffff
+ROM              0x0000000000000000 0x0000000000008000 xr
+RAM              0x0000000000800100 0x000000000000039c rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
 
 Linker script and memory map
 
 Address of section .data set to 0x800100
-                0x00800800                __initial_stack_pointer = 0x800800
-                0x00000000                . = 0x0
-                0x00000000                . = ALIGN (0x2)
+                0x0000000000800800                __initial_stack_pointer = 0x800800
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x2)
 
-.isr_vectors    0x00000000        0x4
+.isr_vectors    0x0000000000000000        0x4
  *(.isr_vectors)
- .isr_vectors   0x00000000        0x4 bin/crt0.o
-                0x00000000                isr_vectors
-                0x00000004                . = ALIGN (0x2)
+ .isr_vectors   0x0000000000000000        0x4 bin/crt0.o
+                0x0000000000000000                isr_vectors
+                0x0000000000000004                . = ALIGN (0x2)
  *(.isr_vectors)
 
-.startup        0x00000004       0x60
+.startup        0x0000000000000004       0x60
  *(.startup)
- .startup       0x00000004       0x60 bin/crt0.o
-                0x00000004                __my_startup
-                0x00000022                __do_copy_data
-                0x0000003a                __do_clear_bss
-                0x0000004c                __do_global_ctors
-                0x00000064                . = ALIGN (0x2)
+ .startup       0x0000000000000004       0x60 bin/crt0.o
+                0x0000000000000004                __my_startup
+                0x0000000000000022                __do_copy_data
+                0x000000000000003a                __do_clear_bss
+                0x000000000000004c                __do_global_ctors
+                0x0000000000000064                . = ALIGN (0x2)
  *(.startup)
 
-.text           0x00000064       0x3a
-                0x00000064                __ctors_start = .
+.text           0x0000000000000064      0x1da
+                0x0000000000000064                __ctors_start = .
  *(.ctors)
- .ctors         0x00000064        0x2 bin/led.o
-                0x00000066                . = ALIGN (0x2)
+ .ctors         0x0000000000000064        0x2 bin/led.o
+                0x0000000000000066                . = ALIGN (0x2)
  *(SORT(.ctors))
-                0x00000066                __ctors_end = .
+                0x0000000000000066                __ctors_end = .
  *(.progmem*)
-                0x00000066                . = ALIGN (0x2)
+                0x0000000000000066                . = ALIGN (0x2)
  *(.trampolines*)
- .trampolines   0x00000066        0x0 linker stubs
-                0x00000066                . = ALIGN (0x2)
+ .trampolines   0x0000000000000066        0x0 linker stubs
+                0x0000000000000066                . = ALIGN (0x2)
  *(.text)
- .text          0x00000066        0x0 bin/led.o
- .text          0x00000066        0x8 bin/crt0.o
-                0x00000066                __tablejump__
-                0x0000006e                . = ALIGN (0x2)
+ .text          0x0000000000000066       0xf8 bin/led.o
+                0x0000000000000066                main
+ .text          0x000000000000015e        0x8 bin/crt0.o
+                0x000000000000015e                __tablejump__
+                0x0000000000000166                . = ALIGN (0x2)
  *(.text*)
- .text.startup  0x0000006e       0x30 bin/led.o
-                0x0000006e                main
-                0x0000009e                . = ALIGN (0x2)
-                0x00800100                . = 0x800100
-                0x00800100                . = ALIGN (0x2)
+ .text._ZN3ledC2Ehh
+                0x0000000000000166       0x94 bin/led.o
+                0x0000000000000166                _ZN3ledC2Ehh
+                0x0000000000000166                _ZN3ledC1Ehh
+ .text._ZNK3led6toggleEv
+                0x00000000000001fa       0x44 bin/led.o
+                0x00000000000001fa                _ZNK3led6toggleEv
+                0x000000000000023e                . = ALIGN (0x2)
+                0x0000000000800100                . = 0x800100
+                0x0000000000800100                . = ALIGN (0x2)
 
-.data           0x00800100        0x0 load address 0x0000009e
-                0x00800100                __data_start = .
+.data           0x0000000000800100        0xa load address 0x000000000000023e
+                0x0000000000800100                __data_start = .
  *(.data)
- .data          0x00800100        0x0 bin/led.o
- .data          0x00800100        0x0 bin/crt0.o
-                0x00800100                . = ALIGN (0x2)
+ .data          0x0000000000800100        0x0 bin/led.o
+ .data          0x0000000000800100        0x0 bin/crt0.o
+                0x0000000000800100                . = ALIGN (0x2)
  *(.data)
  *(.data*)
-                0x00800100                . = ALIGN (0x2)
+                0x0000000000800100                . = ALIGN (0x2)
  *(.data*)
  *(.rodata)
-                0x00800100                . = ALIGN (0x2)
+ .rodata        0x0000000000800100        0x9 bin/led.o
+                0x000000000080010a                . = ALIGN (0x2)
+ *fill*         0x0000000000800109        0x1 
  *(.rodata)
  *(.rodata*)
-                0x00800100                . = ALIGN (0x2)
+                0x000000000080010a                . = ALIGN (0x2)
  *(.rodata*)
-                0x00800100                __data_end = .
+                0x000000000080010a                __data_end = .
 
-.bss            0x00800100        0x2 load address 0x0000009e
-                0x00800100                __bss_start = .
+.bss            0x000000000080010a        0x2 load address 0x0000000000000248
+                0x000000000080010a                __bss_start = .
  *(.bss)
- .bss           0x00800100        0x2 bin/led.o
- .bss           0x00800102        0x0 bin/crt0.o
-                0x00800102                . = ALIGN (0x2)
+ .bss           0x000000000080010a        0x2 bin/led.o
+ .bss           0x000000000080010c        0x0 bin/crt0.o
+                0x000000000080010c                . = ALIGN (0x2)
  *(.bss)
  *(.bss*)
-                0x00800102                . = ALIGN (0x2)
+                0x000000000080010c                . = ALIGN (0x2)
  *(.bss*)
-                0x00800102                __bss_end = .
-                0x0000009e                __data_load_start = LOADADDR (.data)
+                0x000000000080010c                __bss_end = .
+                0x000000000000023e                __data_load_start = LOADADDR (.data)
 LOAD bin/led.o
 LOAD bin/crt0.o
 OUTPUT(bin/led.elf elf32-avr)
 LOAD linker stubs
 
-.comment        0x00000000       0x30
- .comment       0x00000000       0x30 bin/led.o
-                                 0x31 (size before relaxing)
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 bin/led.o
+                                         0x12 (size before relaxing)

@@ -10,13 +10,26 @@
 0000004c W __do_global_ctors
 00000064 T __ctors_start
 00000066 T __ctors_end
-00000066 W __tablejump__
-0000006e 00000012 T main
-00000080 0000001e t _GLOBAL__sub_I_main
-0000009e A __data_load_start
-00800100 B __bss_start
-00800100 D __data_end
+00000066 0000009a T main
+00000100 00000044 t __static_initialization_and_destruction_0(int, int)
+00000144 0000001a t _GLOBAL__sub_I_main
+0000015e W __tablejump__
+00000166 00000094 W led::led(unsigned char, unsigned char)
+00000166 00000094 W led::led(unsigned char, unsigned char)
+000001fa 00000044 W led::toggle() const
+0000023e A __data_load_start
+00800100 00000001 d mcal::reg::portb
 00800100 D __data_start
-00800100 00000002 b (anonymous namespace)::led_b5
-00800102 B __bss_end
+00800101 00000001 d mcal::reg::bval0
+00800102 00000001 d mcal::reg::bval1
+00800103 00000001 d mcal::reg::bval2
+00800104 00000001 d mcal::reg::bval3
+00800105 00000001 d mcal::reg::bval4
+00800106 00000001 d mcal::reg::bval5
+00800107 00000001 d mcal::reg::bval6
+00800108 00000001 d mcal::reg::bval7
+0080010a 00000002 b (anonymous namespace)::led_b5
+0080010a B __bss_start
+0080010a D __data_end
+0080010c B __bss_end
 00800800 A __initial_stack_pointer

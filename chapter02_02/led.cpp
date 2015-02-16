@@ -55,16 +55,28 @@ namespace
 
 int main()
 {
+   uint32_t counter = 0;
   // Toggle led_b5 in a loop forever.
+  // With a marron of delay...
   for(;;)
   {
+
     led_b5.toggle();
-    int counter = 0;
-    while(counter < 10000 )
-    {
-    	asm(" NOP");
-    	counter++;
-    }
+	while(counter < 600000)
+	{
+		asm(" NOP");
+		asm(" NOP");
+		counter++;
+	}
+	counter = 0;
+	led_b5.toggle();
+	while(counter < 600000)
+	{
+		asm(" NOP");
+		asm(" NOP");
+		counter++;
+	}
+	counter = 0;
 
   }
 }
