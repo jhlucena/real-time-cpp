@@ -1,0 +1,8 @@
+README_2:
+
+This is a fork of the code from C. Kormanyos C++ Real Time book. Im using this as part of a class being taken at UPRM. 
+I have done modifications to run this code on Mac OS/Unix Os and using eclipse as my IDE.
+
+License same as original code.
+
+- Added folder for chapter 4 code
