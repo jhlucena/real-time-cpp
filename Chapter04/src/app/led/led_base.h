@@ -8,6 +8,8 @@
 #ifndef SRC_APP_LED_LED_BASE_H_
 #define SRC_APP_LED_LED_BASE_H_
 
+#include <cstdint>
+
 class led_base
 {
 public:

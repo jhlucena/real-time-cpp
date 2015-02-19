@@ -2,7 +2,7 @@
 # This is the Makefile for led_app folder
 # Thanks to Juan Gomez for the initial Porting
 
-CFLAGS := -Wall -Wextra -pedantic -mmcu=atmega328p -fsigned-char -O2 -fno-exceptions
+CFLAGS := -Wall -Wextra -pedantic -mmcu=atmega328p -fsigned-char -O0 -fno-exceptions
 CPPFLAGS := -std=c++11 -fno-rtti -fstrict-enums -fno-use-cxa-atexit -fno-use-cxa-get-exception-ptr -fno-nonansi-builtins -fno-threadsafe-statics -fno-enforce-eh-specs
 CINCLUDES := -Isrc -Isrc/mcal/avr -Isrc/util/STL -Isrc/util/STL_C++11_Compatibility -Isrc/util/STL_C++17_Compatibility
 
@@ -23,9 +23,17 @@ clean:
 very_clean:
 	rm -rf bin/
 
-led_app.elf: bin/led_base.o bin/led_port.o bin/app_led.o bin/mcal.o bin/mcal_gcc_cxx_completion.o bin/mcal_cpu.o bin/mcal_gpt.o bin/mcal_irq.o bin/mcal_led.o bin/mcal_osc.o bin/mcal_port.o bin/mcal_wdg.o bin/os.o bin/os_task_control_block.o bin/sys_idle.o bin/sys_mon.o bin/sys_start.o bin/crt0.o bin/crt0_init_ram.o bin/crt1.o bin/int_vect.o
-	avr-g++ -x none -mrelax -nostartfiles $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -Wl,--gc-sections -Wl,-Ttarget/micros/avr/make/avr.ld,-Map,bin/led_app.map bin/led_base.o bin/led_port.o bin/app_led.o bin/mcal.o bin/mcal_gcc_cxx_completion.o bin/mcal_cpu.o bin/mcal_gpt.o bin/mcal_irq.o bin/mcal_led.o bin/mcal_osc.o bin/mcal_port.o bin/mcal_wdg.o bin/os.o bin/os_task_control_block.o bin/sys_idle.o bin/sys_mon.o bin/sys_start.o bin/crt0.o bin/crt0_init_ram.o bin/crt1.o bin/int_vect.o -o bin/led_app.elf
+led_app.elf: bin/port_pin.o bin/pwm_type.o bin/led_base.o bin/led_port.o bin/led_pwm.o bin/app_led.o bin/mcal.o bin/mcal_gcc_cxx_completion.o bin/mcal_cpu.o bin/mcal_gpt.o bin/mcal_irq.o bin/mcal_led.o bin/mcal_osc.o bin/mcal_port.o bin/mcal_wdg.o bin/os.o bin/os_task_control_block.o bin/sys_idle.o bin/sys_mon.o bin/sys_start.o bin/crt0.o bin/crt0_init_ram.o bin/crt1.o bin/int_vect.o
+	avr-g++ -x none -mrelax -nostartfiles $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -Wl,--gc-sections -Wl,-Ttarget/micros/avr/make/avr.ld,-Map,bin/led_app.map bin/port_pin.o bin/pwm_type.o bin/led_base.o bin/led_port.o bin/led_pwm.o bin/app_led.o bin/mcal.o bin/mcal_gcc_cxx_completion.o bin/mcal_cpu.o bin/mcal_gpt.o bin/mcal_irq.o bin/mcal_osc.o  bin/mcal_wdg.o bin/os.o bin/os_task_control_block.o bin/sys_idle.o bin/sys_mon.o bin/sys_start.o bin/crt0.o bin/crt0_init_ram.o bin/crt1.o bin/int_vect.o -o bin/led_app.elf
 
+bin/port_pin.o: src/app/gpio/port_pin.cpp
+	avr-g++ -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/app/gpio/port_pin.cpp -o bin/port_pin.o
+
+bin/pwm_type.o: src/app/pwm/pwm_type.cpp
+	avr-g++ -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/app/pwm/pwm_type.cpp -o bin/pwm_type.o
+	
+bin/led_pwm.o: src/app/led/led_pwm.cpp
+	avr-g++ -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/app/led/led_pwm.cpp -o bin/led_pwm.o
 
 bin/mcal_osc.o: src/mcal/avr/mcal_osc.cpp
 	avr-g++ -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/mcal/avr/mcal_osc.cpp -o bin/mcal_osc.o

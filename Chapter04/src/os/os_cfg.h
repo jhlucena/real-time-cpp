@@ -16,7 +16,7 @@
   #define OS_IDLE_TASK_FUNC() sys::idle::task_func()
 
   // Declare all of the task initializations and the task functions.
-  namespace app { namespace led { void task_init(); void task_func(); } }
+  namespace app { namespace tasks { void task_init(); void task_func(); } }
   namespace sys { namespace mon { void task_init(); void task_func(); } }
 
   // Enumerate the task IDs. Note that the order in this list must
@@ -47,10 +47,10 @@
   #define OS_TASK_LIST                                                                           \
   {                                                                                              \
     {                                                                                            \
-      os::task_control_block(app::led::task_init,                                                \
-                             app::led::task_func,                                                \
-                             os::timer_type::microseconds(UINT32_C(  2000)),                     \
-                             os::timer_type::microseconds(UINT32_C(   229))),                    \
+      os::task_control_block(app::tasks::task_init,                                                \
+                             app::tasks::task_func,                                                \
+                             os::timer_type::microseconds(UINT32_C( 250)),                     \
+                             os::timer_type::microseconds(UINT32_C( 229))),                    \
       os::task_control_block(sys::mon::task_init,                                                \
                              sys::mon::task_func,                                                \
                              os::timer_type::microseconds(UINT32_C( 20000)),                     \
