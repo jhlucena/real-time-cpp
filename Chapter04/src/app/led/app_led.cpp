@@ -6,6 +6,7 @@
 //
 // This code is modified using book code to demonstrate the software PWM described
 // on chapter 9 of the book.
+// Revision done by J. Hernandez
 //
 
 #include <mcal/mcal.h>
