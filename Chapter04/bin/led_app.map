@@ -1,7 +1,5 @@
 Archive member included because of file (symbol)
 
-/Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
-                              bin/app_led.o (__muluhisi3)
 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
                               bin/app_led.o (__do_copy_data)
 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
@@ -10,8 +8,6 @@ Archive member included because of file (symbol)
                               bin/app_led.o (__do_global_ctors)
 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
                               bin/app_led.o (__do_global_dtors)
-/Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
-                              /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o) (__umulhisi3)
 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
                               /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o) (__tablejump2__)
 
@@ -22,60 +18,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 bin/led_base.o
  .text          0x0000000000000000        0x0 bin/led_port.o
  .text          0x0000000000000000        0x0 bin/led_pwm.o
- .group         0x0000000000000000        0xc bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/app_led.o
  .group         0x0000000000000000        0x8 bin/app_led.o
  .group         0x0000000000000000        0x8 bin/app_led.o
  .group         0x0000000000000000        0x8 bin/app_led.o
@@ -85,81 +27,16 @@ Discarded input sections
  .group         0x0000000000000000        0xc bin/app_led.o
  .group         0x0000000000000000        0xc bin/app_led.o
  .group         0x0000000000000000        0x8 bin/app_led.o
+ .group         0x0000000000000000        0x8 bin/app_led.o
+ .group         0x0000000000000000        0x8 bin/app_led.o
+ .group         0x0000000000000000        0x8 bin/app_led.o
+ .text.exit     0x0000000000000000        0x2 bin/app_led.o
  .dtors         0x0000000000000000        0x2 bin/app_led.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_gcc_cxx_completion.o
- .group         0x0000000000000000        0x8 bin/mcal_cpu.o
- .group         0x0000000000000000        0x8 bin/mcal_cpu.o
- .group         0x0000000000000000        0x8 bin/mcal_gpt.o
- .group         0x0000000000000000        0x8 bin/mcal_gpt.o
- .group         0x0000000000000000        0x8 bin/mcal_gpt.o
- .group         0x0000000000000000        0x8 bin/mcal_gpt.o
- .group         0x0000000000000000        0x8 bin/mcal_irq.o
  .text          0x0000000000000000        0x0 bin/mcal_osc.o
- .group         0x0000000000000000        0x8 bin/mcal_wdg.o
- .group         0x0000000000000000        0x8 bin/mcal_wdg.o
- .group         0x0000000000000000        0x8 bin/mcal_wdg.o
- .group         0x0000000000000000        0x8 bin/mcal_wdg.o
- .group         0x0000000000000000        0x8 bin/os.o
- .group         0x0000000000000000        0x8 bin/os.o
- .group         0x0000000000000000        0x8 bin/os.o
- .group         0x0000000000000000        0x8 bin/os.o
- .group         0x0000000000000000        0x8 bin/os.o
- .group         0x0000000000000000        0x8 bin/os.o
- .text._ZN4mcal3irq10enable_allEv
-                0x0000000000000000       0x10 bin/os.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .group         0x0000000000000000        0x8 bin/os_task_control_block.o
- .text._ZN4util5timerImEC2ERKm
-                0x0000000000000000       0x4e bin/os_task_control_block.o
- .text._ZNK4util5timerImE7timeoutEv
-                0x0000000000000000       0x7e bin/os_task_control_block.o
- .text._ZN4util5timerImE14start_intervalERKm
-                0x0000000000000000       0x54 bin/os_task_control_block.o
- .text._ZNKSt5arrayIN2os18task_control_blockELj2EE6cbeginEv
-                0x0000000000000000       0x1c bin/os_task_control_block.o
- .text._ZNKSt5arrayIN2os18task_control_blockELj2EE4cendEv
-                0x0000000000000000       0x1e bin/os_task_control_block.o
- .text._ZN4util5timerImE6my_nowEv
-                0x0000000000000000       0x1a bin/os_task_control_block.o
+ .text          0x0000000000000000        0x0 bin/sys_start.o
  .text          0x0000000000000000        0x0 bin/crt0.o
- .group         0x0000000000000000        0x8 bin/crt0_init_ram.o
- .group         0x0000000000000000        0x8 bin/crt0_init_ram.o
- .group         0x0000000000000000        0x8 bin/crt0_init_ram.o
- .group         0x0000000000000000        0x8 bin/crt1.o
+ .text          0x0000000000000000        0x0 bin/crt0_init_ram.o
  .text          0x0000000000000000        0x0 bin/crt1.o
- .text._ZN4util9make_longIhjEET0_T_S2_
-                0x0000000000000000       0x2c bin/crt1.o
- .group         0x0000000000000000        0x8 bin/int_vect.o
- .text._ZN4mcal3cpu3nopEv
-                0x0000000000000000       0x10 bin/int_vect.o
- .text          0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .text.libgcc.div
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .text.libgcc   0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .text.libgcc.prologue
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .text.libgcc.builtins
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .text.libgcc.fmul
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .text.libgcc.fixed
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
  .text          0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
  .text.libgcc.mul
                 0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
@@ -220,18 +97,6 @@ Discarded input sections
                 0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
  .text.libgcc.fixed
                 0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
- .text          0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
- .text.libgcc.div
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
- .text.libgcc   0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
- .text.libgcc.prologue
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
- .text.libgcc.builtins
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
- .text.libgcc.fmul
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
- .text.libgcc.fixed
-                0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
  .text          0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
  .text.libgcc.mul
                 0x0000000000000000        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
@@ -275,419 +140,148 @@ LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
  *fill*         0x0000000000000068        0x8 aaaa
  *(.isr_vector)
 
-.startup        0x0000000000000070      0x110
+.startup        0x0000000000000070       0xd0
  *(.startup)
- .startup       0x0000000000000070       0x26 bin/crt0.o
+ .startup       0x0000000000000070       0x1c bin/crt0.o
                 0x0000000000000070                __my_startup
- .startup       0x0000000000000096       0x74 bin/crt0_init_ram.o
-                0x0000000000000096                _ZN3crt8init_ramEv
- .startup       0x000000000000010a       0x6e bin/crt1.o
-                0x000000000000010a                _ZN3crt10init_ctorsEv
-                0x0000000000000180                . = ALIGN (0x10)
- *fill*         0x0000000000000178        0x8 aaaa
+ .startup       0x000000000000008c       0x72 bin/crt0_init_ram.o
+                0x000000000000008c                _ZN3crt8init_ramEv
+ .startup       0x00000000000000fe       0x3c bin/crt1.o
+                0x00000000000000fe                _ZN3crt10init_ctorsEv
+                0x0000000000000140                . = ALIGN (0x10)
+ *fill*         0x000000000000013a        0x6 aaaa
  *(.startup)
 
-.text           0x0000000000000180     0x2230
-                0x0000000000000180                _ctors_begin = .
+.text           0x0000000000000140      0x890
+                0x0000000000000140                _ctors_begin = .
  *(.ctors)
- .ctors         0x0000000000000180        0x2 bin/app_led.o
-                0x0000000000000182                . = ALIGN (0x2)
+ .ctors         0x0000000000000140        0x2 bin/app_led.o
+                0x0000000000000142                . = ALIGN (0x2)
  *(SORT(.ctors))
-                0x0000000000000182                _ctors_end = .
+                0x0000000000000142                _ctors_end = .
  *(.progmem*)
-                0x0000000000000182                . = ALIGN (0x2)
+                0x0000000000000142                . = ALIGN (0x2)
  *(.trampolines*)
- .trampolines   0x0000000000000182        0x0 linker stubs
-                0x0000000000000182                . = ALIGN (0x2)
+ .trampolines   0x0000000000000142        0x0 linker stubs
+                0x0000000000000142                . = ALIGN (0x2)
  *(.text)
- .text          0x0000000000000182      0x286 bin/app_led.o
-                0x0000000000000182                _ZN3app5tasks9task_initEv
-                0x0000000000000190                _ZN3app5tasks9task_funcEv
- .text          0x0000000000000408       0x1a bin/mcal.o
-                0x0000000000000408                _ZN4mcal4initEv
- .text          0x0000000000000422      0x376 bin/mcal_gcc_cxx_completion.o
-                0x0000000000000422                _ZNSt6chrono21high_resolution_clock3nowEv
-                0x000000000000049e                _Znwj
-                0x0000000000000510                _ZdlPv
-                0x0000000000000528                abort
-                0x0000000000000536                atexit
-                0x0000000000000552                at_quick_exit
-                0x000000000000056e                _Exit
-                0x0000000000000582                exit
-                0x0000000000000596                quick_exit
-                0x00000000000005aa                _exit
-                0x00000000000005c6                _isatty
-                0x00000000000005e2                _lseek
-                0x0000000000000612                _open
-                0x0000000000000642                _close
-                0x000000000000065e                _read
-                0x000000000000068e                _write
-                0x00000000000006be                _fstat
-                0x00000000000006e4                _sbrk
-                0x0000000000000700                _getpid
-                0x0000000000000712                _kill
-                0x0000000000000738                __cxa_pure_virtual
-                0x0000000000000746                __cxa_demangle
-                0x0000000000000780                __cxa_call_terminate
- .text          0x0000000000000798       0x6a bin/mcal_cpu.o
-                0x0000000000000798                _ZN4mcal3cpu4initEv
-                0x00000000000007bc                _ZN4mcal3cpu19read_program_memoryEPVh
- .text          0x0000000000000802      0x174 bin/mcal_gpt.o
-                0x0000000000000814                __vector_16
-                0x0000000000000870                _ZN4mcal3gpt4initEPKv
-                0x00000000000008aa                _ZN4mcal3gpt6secure16get_time_elapsedEv
- .text          0x0000000000000976       0x1c bin/mcal_irq.o
-                0x0000000000000976                _ZN4mcal3irq4initEPKv
- .text          0x0000000000000992       0x42 bin/mcal_wdg.o
-                0x0000000000000992                _ZN4mcal3wdg4initEPKv
-                0x00000000000009c4                _ZN4mcal3wdg6secure7triggerEv
- .text          0x00000000000009d4      0x450 bin/os.o
-                0x00000000000009ea                _ZN2os9task_listEv
-                0x0000000000000b2e                _ZN2os8start_osEv
-                0x0000000000000b8e                _ZN2os9set_eventENS_12enum_task_idERKj
-                0x0000000000000c0a                _ZN2os9get_eventERj
-                0x0000000000000c7e                _ZN2os11clear_eventERKj
- .text          0x0000000000000e24      0x2b2 bin/os_task_control_block.o
-                0x0000000000000e36                _ZN2os18task_control_blockC1EPFvvES2_mm
-                0x0000000000000e36                _ZN2os18task_control_blockC2EPFvvES2_mm
-                0x0000000000000ef6                _ZN2os18task_control_blockC2ERKS0_
-                0x0000000000000ef6                _ZN2os18task_control_blockC1ERKS0_
-                0x0000000000000f96                _ZN2os18task_control_blockD1Ev
-                0x0000000000000f96                _ZN2os18task_control_blockD2Ev
-                0x0000000000000fae                _ZNK2os18task_control_block10initializeEv
-                0x0000000000000fd4                _ZNK2os18task_control_block7executeEv
-                0x000000000000107e                _ZN2os6secure25get_running_task_iteratorEv
- .text          0x00000000000010d6       0x1e bin/sys_idle.o
-                0x00000000000010d6                _ZN3sys4idle9task_initEv
-                0x00000000000010e4                _ZN3sys4idle9task_funcEv
- .text          0x00000000000010f4       0x1c bin/sys_mon.o
-                0x00000000000010f4                _ZN3sys3mon9task_initEv
-                0x0000000000001102                _ZN3sys3mon9task_funcEv
- .text          0x0000000000001110       0x16 bin/sys_start.o
-                0x0000000000001110                main
- .text          0x0000000000001126      0x11c bin/crt0_init_ram.o
- .text          0x0000000000001242       0x30 bin/int_vect.o
-                0x0000000000001242                __vector_unused_irq
-                0x0000000000001272                . = ALIGN (0x2)
+ .text          0x0000000000000142      0x1a4 bin/app_led.o
+                0x0000000000000142                _ZN3app5tasks9task_initEv
+                0x0000000000000144                _ZN3app5tasks9task_funcEv
+ .text          0x00000000000002e6        0xc bin/mcal.o
+                0x00000000000002e6                _ZN4mcal4initEv
+ .text          0x00000000000002f2       0xc0 bin/mcal_gcc_cxx_completion.o
+                0x00000000000002f2                _ZNSt6chrono21high_resolution_clock3nowEv
+                0x000000000000031e                _Znwj
+                0x0000000000000348                _ZdlPv
+                0x000000000000034a                abort
+                0x000000000000034e                atexit
+                0x0000000000000354                at_quick_exit
+                0x000000000000035a                _Exit
+                0x000000000000035e                exit
+                0x0000000000000362                quick_exit
+                0x0000000000000366                _exit
+                0x000000000000036c                _isatty
+                0x0000000000000372                _lseek
+                0x0000000000000378                _open
+                0x000000000000037e                _close
+                0x0000000000000384                _read
+                0x000000000000038a                _write
+                0x0000000000000390                _fstat
+                0x0000000000000396                _sbrk
+                0x000000000000039c                _getpid
+                0x00000000000003a2                _kill
+                0x00000000000003a8                __cxa_pure_virtual
+                0x00000000000003aa                __cxa_demangle
+                0x00000000000003b0                __cxa_call_terminate
+ .text          0x00000000000003b2        0xc bin/mcal_cpu.o
+                0x00000000000003b2                _ZN4mcal3cpu4initEv
+                0x00000000000003b8                _ZN4mcal3cpu19read_program_memoryEPVh
+ .text          0x00000000000003be       0xbc bin/mcal_gpt.o
+                0x00000000000003c4                __vector_16
+                0x0000000000000410                _ZN4mcal3gpt4initEPKv
+                0x000000000000042a                _ZN4mcal3gpt6secure16get_time_elapsedEv
+ .text          0x000000000000047a        0x4 bin/mcal_irq.o
+                0x000000000000047a                _ZN4mcal3irq4initEPKv
+ .text          0x000000000000047e       0x2c bin/mcal_wdg.o
+                0x000000000000047e                _ZN4mcal3wdg4initEPKv
+                0x00000000000004a6                _ZN4mcal3wdg6secure7triggerEv
+ .text          0x00000000000004aa      0x216 bin/os.o
+                0x000000000000051c                _ZN2os9task_listEv
+                0x000000000000052c                _ZN2os8start_osEv
+                0x00000000000005a2                _ZN2os9set_eventENS_12enum_task_idERKj
+                0x00000000000005fa                _ZN2os9get_eventERj
+                0x000000000000065e                _ZN2os11clear_eventERKj
+ .text          0x00000000000006c0      0x16c bin/os_task_control_block.o
+                0x00000000000006c0                _ZN2os18task_control_blockC1EPFvvES2_mm
+                0x00000000000006c0                _ZN2os18task_control_blockC2EPFvvES2_mm
+                0x0000000000000716                _ZN2os18task_control_blockC2ERKS0_
+                0x0000000000000716                _ZN2os18task_control_blockC1ERKS0_
+                0x000000000000076c                _ZN2os18task_control_blockD1Ev
+                0x000000000000076c                _ZN2os18task_control_blockD2Ev
+                0x000000000000076e                _ZNK2os18task_control_block10initializeEv
+                0x0000000000000776                _ZNK2os18task_control_block7executeEv
+                0x0000000000000808                _ZN2os6secure25get_running_task_iteratorEv
+ .text          0x000000000000082c        0x4 bin/sys_idle.o
+                0x000000000000082c                _ZN3sys4idle9task_initEv
+                0x000000000000082e                _ZN3sys4idle9task_funcEv
+ .text          0x0000000000000830        0x4 bin/sys_mon.o
+                0x0000000000000830                _ZN3sys3mon9task_initEv
+                0x0000000000000832                _ZN3sys3mon9task_funcEv
+ .text          0x0000000000000834        0xe bin/int_vect.o
+                0x0000000000000834                __vector_unused_irq
+                0x0000000000000842                . = ALIGN (0x2)
  *(.text*)
- .text._ZN8led_baseD2Ev
-                0x0000000000001272       0x34 bin/app_led.o
-                0x0000000000001272                _ZN8led_baseD2Ev
-                0x0000000000001272                _ZN8led_baseD1Ev
- .text._ZN8led_baseD0Ev
-                0x00000000000012a6       0x24 bin/app_led.o
-                0x00000000000012a6                _ZN8led_baseD0Ev
- .text._ZN8led_baseC2Ev
-                0x00000000000012ca       0x2e bin/app_led.o
-                0x00000000000012ca                _ZN8led_baseC1Ev
-                0x00000000000012ca                _ZN8led_baseC2Ev
- .text._ZSt11atomic_loadIhET_PVKS0_
-                0x00000000000012f8       0x20 bin/app_led.o
-                0x00000000000012f8                _ZSt11atomic_loadIhET_PVKS0_
- .text._ZSt12atomic_storeIhEvPT_S0_
-                0x0000000000001318       0x28 bin/app_led.o
-                0x0000000000001318                _ZSt12atomic_storeIhEvPT_S0_
- .text._ZN8led_portIhhLh37ELh1EEC2Ev
-                0x0000000000001340       0x30 bin/app_led.o
-                0x0000000000001340                _ZN8led_portIhhLh37ELh1EEC2Ev
-                0x0000000000001340                _ZN8led_portIhhLh37ELh1EEC1Ev
- .text._ZN8led_portIhhLh43ELh7EEC2Ev
-                0x0000000000001370       0x30 bin/app_led.o
-                0x0000000000001370                _ZN8led_portIhhLh43ELh7EEC2Ev
-                0x0000000000001370                _ZN8led_portIhhLh43ELh7EEC1Ev
- .text._ZN8pwm_typeIhhLh37ELh0ELh100EEC2Eh
-                0x00000000000013a0       0x3e bin/app_led.o
-                0x00000000000013a0                _ZN8pwm_typeIhhLh37ELh0ELh100EEC1Eh
-                0x00000000000013a0                _ZN8pwm_typeIhhLh37ELh0ELh100EEC2Eh
- .text._ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEEC2Ev
-                0x00000000000013de       0x3a bin/app_led.o
-                0x00000000000013de                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEEC1Ev
-                0x00000000000013de                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEEC2Ev
- .text._ZN8pwm_typeIhhLh37ELh2ELh100EEC2Eh
-                0x0000000000001418       0x3e bin/app_led.o
-                0x0000000000001418                _ZN8pwm_typeIhhLh37ELh2ELh100EEC1Eh
-                0x0000000000001418                _ZN8pwm_typeIhhLh37ELh2ELh100EEC2Eh
- .text._ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEEC2Ev
-                0x0000000000001456       0x3a bin/app_led.o
-                0x0000000000001456                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEEC2Ev
-                0x0000000000001456                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEEC1Ev
- .text._ZN4util5timerImE7secondsIjEEmRKT_
-                0x0000000000001490       0x32 bin/app_led.o
-                0x0000000000001490                _ZN4util5timerImE7secondsIjEEmRKT_
- .text._ZN4util5timerImEC2ERKm
-                0x00000000000014c2       0x4c bin/app_led.o
-                0x00000000000014c2                _ZN4util5timerImEC1ERKm
-                0x00000000000014c2                _ZN4util5timerImEC2ERKm
- .text._ZN4util5timerImE12microsecondsIjEEmRKT_
-                0x000000000000150e       0x2c bin/app_led.o
-                0x000000000000150e                _ZN4util5timerImE12microsecondsIjEEmRKT_
- .text._ZNK4util5timerImE7timeoutEv
-                0x000000000000153a       0x7c bin/app_led.o
-                0x000000000000153a                _ZNK4util5timerImE7timeoutEv
  .text._ZN8led_portIhhLh37ELh1EE6toggleEv
-                0x00000000000015b6       0x40 bin/app_led.o
-                0x00000000000015b6                _ZN8led_portIhhLh37ELh1EE6toggleEv
+                0x0000000000000842       0x20 bin/app_led.o
+                0x0000000000000842                _ZN8led_portIhhLh37ELh1EE6toggleEv
  .text._ZN8led_portIhhLh43ELh7EE6toggleEv
-                0x00000000000015f6       0x40 bin/app_led.o
-                0x00000000000015f6                _ZN8led_portIhhLh43ELh7EE6toggleEv
+                0x0000000000000862       0x20 bin/app_led.o
+                0x0000000000000862                _ZN8led_portIhhLh43ELh7EE6toggleEv
  .text._ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEE6toggleEv
-                0x0000000000001636       0x6a bin/app_led.o
-                0x0000000000001636                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEE6toggleEv
- .text._ZN4util5timerImE14start_intervalERKm
-                0x00000000000016a0       0x54 bin/app_led.o
-                0x00000000000016a0                _ZN4util5timerImE14start_intervalERKm
- .text._ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE7dimmingEh
-                0x00000000000016f4       0x3e bin/app_led.o
-                0x00000000000016f4                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE7dimmingEh
- .text._ZN8pwm_typeIhhLh37ELh0ELh100EE7serviceEv
-                0x0000000000001732       0x72 bin/app_led.o
-                0x0000000000001732                _ZN8pwm_typeIhhLh37ELh0ELh100EE7serviceEv
- .text._ZN8pwm_typeIhhLh37ELh2ELh100EE7serviceEv
-                0x00000000000017a4       0x72 bin/app_led.o
-                0x00000000000017a4                _ZN8pwm_typeIhhLh37ELh2ELh100EE7serviceEv
- .text._ZN8port_pinIhhLh37ELh1EE11set_pin_lowEv
-                0x0000000000001816       0x10 bin/app_led.o
-                0x0000000000001816                _ZN8port_pinIhhLh37ELh1EE11set_pin_lowEv
- .text._ZN8port_pinIhhLh37ELh1EE20set_direction_outputEv
-                0x0000000000001826       0x10 bin/app_led.o
-                0x0000000000001826                _ZN8port_pinIhhLh37ELh1EE20set_direction_outputEv
- .text._ZN8port_pinIhhLh43ELh7EE11set_pin_lowEv
-                0x0000000000001836       0x10 bin/app_led.o
-                0x0000000000001836                _ZN8port_pinIhhLh43ELh7EE11set_pin_lowEv
- .text._ZN8port_pinIhhLh43ELh7EE20set_direction_outputEv
-                0x0000000000001846       0x10 bin/app_led.o
-                0x0000000000001846                _ZN8port_pinIhhLh43ELh7EE20set_direction_outputEv
- .text._ZN8port_pinIhhLh37ELh0EE11set_pin_lowEv
-                0x0000000000001856       0x10 bin/app_led.o
-                0x0000000000001856                _ZN8port_pinIhhLh37ELh0EE11set_pin_lowEv
- .text._ZN8port_pinIhhLh37ELh0EE20set_direction_outputEv
-                0x0000000000001866       0x10 bin/app_led.o
-                0x0000000000001866                _ZN8port_pinIhhLh37ELh0EE20set_direction_outputEv
- .text._ZN8port_pinIhhLh37ELh2EE11set_pin_lowEv
-                0x0000000000001876       0x10 bin/app_led.o
-                0x0000000000001876                _ZN8port_pinIhhLh37ELh2EE11set_pin_lowEv
- .text._ZN8port_pinIhhLh37ELh2EE20set_direction_outputEv
-                0x0000000000001886       0x10 bin/app_led.o
-                0x0000000000001886                _ZN8port_pinIhhLh37ELh2EE20set_direction_outputEv
- .text._ZN4util5timerImE12millisecondsIjEEmRKT_
-                0x0000000000001896       0x32 bin/app_led.o
-                0x0000000000001896                _ZN4util5timerImE12millisecondsIjEEmRKT_
- .text._ZN4util5timerImE6my_nowEv
-                0x00000000000018c8       0x1a bin/app_led.o
-                0x00000000000018c8                _ZN4util5timerImE6my_nowEv
- .text._ZN8port_pinIhhLh37ELh1EE12set_pin_highEv
-                0x00000000000018e2       0x10 bin/app_led.o
-                0x00000000000018e2                _ZN8port_pinIhhLh37ELh1EE12set_pin_highEv
- .text._ZN8port_pinIhhLh43ELh7EE12set_pin_highEv
-                0x00000000000018f2       0x10 bin/app_led.o
-                0x00000000000018f2                _ZN8port_pinIhhLh43ELh7EE12set_pin_highEv
- .text._ZNK8pwm_typeIhhLh37ELh2ELh100EE8get_dutyEv
-                0x0000000000001902       0x20 bin/app_led.o
-                0x0000000000001902                _ZNK8pwm_typeIhhLh37ELh2ELh100EE8get_dutyEv
- .text._ZN8pwm_typeIhhLh37ELh2ELh100EE8set_dutyEh
-                0x0000000000001922       0x40 bin/app_led.o
-                0x0000000000001922                _ZN8pwm_typeIhhLh37ELh2ELh100EE8set_dutyEh
- .text._ZN8pwm_typeIhhLh37ELh0ELh100EE8set_dutyEh
-                0x0000000000001962       0x40 bin/app_led.o
-                0x0000000000001962                _ZN8pwm_typeIhhLh37ELh0ELh100EE8set_dutyEh
- .text._ZN8port_pinIhhLh37ELh0EE12set_pin_highEv
-                0x00000000000019a2       0x10 bin/app_led.o
-                0x00000000000019a2                _ZN8port_pinIhhLh37ELh0EE12set_pin_highEv
- .text._ZN8port_pinIhhLh37ELh2EE12set_pin_highEv
-                0x00000000000019b2       0x10 bin/app_led.o
-                0x00000000000019b2                _ZN8port_pinIhhLh37ELh2EE12set_pin_highEv
- .text._ZN4mcal3reg6accessIhhLh37ELh1EE7bit_clrEv
-                0x00000000000019c2       0x20 bin/app_led.o
-                0x00000000000019c2                _ZN4mcal3reg6accessIhhLh37ELh1EE7bit_clrEv
- .text._ZN4mcal3reg6accessIhhLh36ELh1EE7bit_setEv
-                0x00000000000019e2       0x20 bin/app_led.o
-                0x00000000000019e2                _ZN4mcal3reg6accessIhhLh36ELh1EE7bit_setEv
- .text._ZN4mcal3reg6accessIhhLh43ELh7EE7bit_clrEv
-                0x0000000000001a02       0x20 bin/app_led.o
-                0x0000000000001a02                _ZN4mcal3reg6accessIhhLh43ELh7EE7bit_clrEv
- .text._ZN4mcal3reg6accessIhhLh42ELh7EE7bit_setEv
-                0x0000000000001a22       0x20 bin/app_led.o
-                0x0000000000001a22                _ZN4mcal3reg6accessIhhLh42ELh7EE7bit_setEv
- .text._ZN4mcal3reg6accessIhhLh37ELh0EE7bit_clrEv
-                0x0000000000001a42       0x20 bin/app_led.o
-                0x0000000000001a42                _ZN4mcal3reg6accessIhhLh37ELh0EE7bit_clrEv
- .text._ZN4mcal3reg6accessIhhLh36ELh0EE7bit_setEv
-                0x0000000000001a62       0x20 bin/app_led.o
-                0x0000000000001a62                _ZN4mcal3reg6accessIhhLh36ELh0EE7bit_setEv
- .text._ZN4mcal3reg6accessIhhLh37ELh2EE7bit_clrEv
-                0x0000000000001a82       0x20 bin/app_led.o
-                0x0000000000001a82                _ZN4mcal3reg6accessIhhLh37ELh2EE7bit_clrEv
- .text._ZN4mcal3reg6accessIhhLh36ELh2EE7bit_setEv
-                0x0000000000001aa2       0x20 bin/app_led.o
-                0x0000000000001aa2                _ZN4mcal3reg6accessIhhLh36ELh2EE7bit_setEv
- .text._ZN4mcal3reg6accessIhhLh37ELh1EE7bit_setEv
-                0x0000000000001ac2       0x20 bin/app_led.o
-                0x0000000000001ac2                _ZN4mcal3reg6accessIhhLh37ELh1EE7bit_setEv
- .text._ZN4mcal3reg6accessIhhLh43ELh7EE7bit_setEv
-                0x0000000000001ae2       0x20 bin/app_led.o
-                0x0000000000001ae2                _ZN4mcal3reg6accessIhhLh43ELh7EE7bit_setEv
- .text._ZSt3minIhERKT_S2_S2_
-                0x0000000000001b02       0x2e bin/app_led.o
-                0x0000000000001b02                _ZSt3minIhERKT_S2_S2_
- .text._ZN4mcal3reg6accessIhhLh37ELh0EE7bit_setEv
-                0x0000000000001b30       0x20 bin/app_led.o
-                0x0000000000001b30                _ZN4mcal3reg6accessIhhLh37ELh0EE7bit_setEv
- .text._ZN4mcal3reg6accessIhhLh37ELh2EE7bit_setEv
-                0x0000000000001b50       0x20 bin/app_led.o
-                0x0000000000001b50                _ZN4mcal3reg6accessIhhLh37ELh2EE7bit_setEv
- .text._ZN10xalgorithm4xminIhEERKT_S3_S3_
-                0x0000000000001b70       0x40 bin/app_led.o
-                0x0000000000001b70                _ZN10xalgorithm4xminIhEERKT_S3_S3_
+                0x0000000000000882       0x3a bin/app_led.o
+                0x0000000000000882                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEE6toggleEv
  .text._ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED2Ev
-                0x0000000000001bb0       0x3c bin/app_led.o
-                0x0000000000001bb0                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED2Ev
-                0x0000000000001bb0                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED1Ev
- .text._ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED0Ev
-                0x0000000000001bec       0x26 bin/app_led.o
-                0x0000000000001bec                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED0Ev
+                0x00000000000008bc        0x2 bin/app_led.o
+                0x00000000000008bc                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED2Ev
+                0x00000000000008bc                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED1Ev
  .text._ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE6toggleEv
-                0x0000000000001c12       0x6a bin/app_led.o
-                0x0000000000001c12                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE6toggleEv
+                0x00000000000008be       0x3a bin/app_led.o
+                0x00000000000008be                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE6toggleEv
  .text._ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED2Ev
-                0x0000000000001c7c       0x3c bin/app_led.o
-                0x0000000000001c7c                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED2Ev
-                0x0000000000001c7c                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED1Ev
- .text._ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED0Ev
-                0x0000000000001cb8       0x26 bin/app_led.o
-                0x0000000000001cb8                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED0Ev
+                0x00000000000008f8        0x2 bin/app_led.o
+                0x00000000000008f8                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED2Ev
+                0x00000000000008f8                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED1Ev
  .text._ZN8led_portIhhLh43ELh7EED2Ev
-                0x0000000000001cde       0x3c bin/app_led.o
-                0x0000000000001cde                _ZN8led_portIhhLh43ELh7EED2Ev
-                0x0000000000001cde                _ZN8led_portIhhLh43ELh7EED1Ev
- .text._ZN8led_portIhhLh43ELh7EED0Ev
-                0x0000000000001d1a       0x26 bin/app_led.o
-                0x0000000000001d1a                _ZN8led_portIhhLh43ELh7EED0Ev
+                0x00000000000008fa        0x2 bin/app_led.o
+                0x00000000000008fa                _ZN8led_portIhhLh43ELh7EED2Ev
+                0x00000000000008fa                _ZN8led_portIhhLh43ELh7EED1Ev
  .text._ZN8led_portIhhLh37ELh1EED2Ev
-                0x0000000000001d40       0x3c bin/app_led.o
-                0x0000000000001d40                _ZN8led_portIhhLh37ELh1EED1Ev
-                0x0000000000001d40                _ZN8led_portIhhLh37ELh1EED2Ev
+                0x00000000000008fc        0x2 bin/app_led.o
+                0x00000000000008fc                _ZN8led_portIhhLh37ELh1EED1Ev
+                0x00000000000008fc                _ZN8led_portIhhLh37ELh1EED2Ev
  .text._ZN8led_portIhhLh37ELh1EED0Ev
-                0x0000000000001d7c       0x26 bin/app_led.o
-                0x0000000000001d7c                _ZN8led_portIhhLh37ELh1EED0Ev
- .text._ZNK8pwm_typeIhhLh37ELh0ELh100EE8get_dutyEv
-                0x0000000000001da2       0x20 bin/app_led.o
-                0x0000000000001da2                _ZNK8pwm_typeIhhLh37ELh0ELh100EE8get_dutyEv
- .text._ZNSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEED2Ev
-                0x0000000000001dc2       0x1e bin/mcal_gcc_cxx_completion.o
-                0x0000000000001dc2                _ZNSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEED1Ev
-                0x0000000000001dc2                _ZNSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEED2Ev
- .text._ZN4mcal3cpu3nopEv
-                0x0000000000001de0       0x10 bin/mcal_gcc_cxx_completion.o
-                0x0000000000001de0                _ZN4mcal3cpu3nopEv
- .text._ZNKSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEE16time_since_epochEv
-                0x0000000000001df0       0x3c bin/mcal_gcc_cxx_completion.o
-                0x0000000000001df0                _ZNKSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEE16time_since_epochEv
- .text._ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEED2Ev
-                0x0000000000001e2c       0x18 bin/mcal_gcc_cxx_completion.o
-                0x0000000000001e2c                _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEED1Ev
-                0x0000000000001e2c                _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEED2Ev
- .text._ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEEC2ImEERKT_
-                0x0000000000001e44       0x4e bin/mcal_gcc_cxx_completion.o
-                0x0000000000001e44                _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEEC1ImEERKT_
-                0x0000000000001e44                _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEEC2ImEERKT_
- .text._ZNSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEEC2ERKS5_
-                0x0000000000001e92       0x38 bin/mcal_gcc_cxx_completion.o
-                0x0000000000001e92                _ZNSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEEC1ERKS5_
-                0x0000000000001e92                _ZNSt6chrono10time_pointINS_21high_resolution_clockENS_8durationIxSt5ratioILx1ELx1000000EEEEEC2ERKS5_
- .text._ZNSt6chrono15time_point_castINS_8durationIxSt5ratioILx1ELx1000000EEEENS_21high_resolution_clockES4_EENS_10time_pointIT0_T_EERKNS6_IS7_T1_EE
-                0x0000000000001eca       0x66 bin/mcal_gcc_cxx_completion.o
-                0x0000000000001eca                _ZNSt6chrono15time_point_castINS_8durationIxSt5ratioILx1ELx1000000EEEENS_21high_resolution_clockES4_EENS_10time_pointIT0_T_EERKNS6_IS7_T1_EE
- .text._ZNSt6chrono13duration_castINS_8durationIxSt5ratioILx1ELx1000000EEEExS3_EET_RKNS1_IT0_T1_EE
-                0x0000000000001f30       0x32 bin/mcal_gcc_cxx_completion.o
-                0x0000000000001f30                _ZNSt6chrono13duration_castINS_8durationIxSt5ratioILx1ELx1000000EEEExS3_EET_RKNS1_IT0_T1_EE
- .text._ZNKSt6chrono8durationIxSt5ratioILx1ELx1000000EEE5countEv
-                0x0000000000001f62       0x6c bin/mcal_gcc_cxx_completion.o
-                0x0000000000001f62                _ZNKSt6chrono8durationIxSt5ratioILx1ELx1000000EEE5countEv
- .text._ZNSt6chrono19_duration_cast_implINS_8durationIxSt5ratioILx1ELx1000000EEEES2_ILx1ELx1EExLb1ELb1EE5_castIxS3_EEKS4_RKNS1_IT_T0_EE
-                0x0000000000001fce       0x86 bin/mcal_gcc_cxx_completion.o
-                0x0000000000001fce                _ZNSt6chrono19_duration_cast_implINS_8durationIxSt5ratioILx1ELx1000000EEEES2_ILx1ELx1EExLb1ELb1EE5_castIxS3_EEKS4_RKNS1_IT_T0_EE
- .text._ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEEC2IxEERKT_
-                0x0000000000002054       0x4a bin/mcal_gcc_cxx_completion.o
-                0x0000000000002054                _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEEC1IxEERKT_
-                0x0000000000002054                _ZNSt6chrono8durationIxSt5ratioILx1ELx1000000EEEC2IxEERKT_
- .text._ZN4mcal3osc4initEPKv
-                0x000000000000209e       0x18 bin/mcal_cpu.o
-                0x000000000000209e                _ZN4mcal3osc4initEPKv
- .text._ZN4mcal4port4initEPKv
-                0x00000000000020b6       0x18 bin/mcal_cpu.o
-                0x00000000000020b6                _ZN4mcal4port4initEPKv
- .text._ZN4mcal3reg6accessIhhLh53ELh1EE7reg_setEv
-                0x00000000000020ce       0x18 bin/mcal_gpt.o
-                0x00000000000020ce                _ZN4mcal3reg6accessIhhLh53ELh1EE7reg_setEv
- .text._ZN4mcal3reg6accessIhhLh110ELh1EE7reg_setEv
-                0x00000000000020e6       0x18 bin/mcal_gpt.o
-                0x00000000000020e6                _ZN4mcal3reg6accessIhhLh110ELh1EE7reg_setEv
- .text._ZN4mcal3reg6accessIhhLh69ELh2EE7reg_setEv
-                0x00000000000020fe       0x18 bin/mcal_gpt.o
-                0x00000000000020fe                _ZN4mcal3reg6accessIhhLh69ELh2EE7reg_setEv
- .text._ZN4mcal3reg6accessIhhLh70ELh0EE7reg_getEv
-                0x0000000000002116       0x16 bin/mcal_gpt.o
-                0x0000000000002116                _ZN4mcal3reg6accessIhhLh70ELh0EE7reg_getEv
- .text._ZN4mcal3irq10enable_allEv
-                0x000000000000212c       0x10 bin/mcal_irq.o
-                0x000000000000212c                _ZN4mcal3irq10enable_allEv
- .text._ZN4mcal3reg6accessIhhLh52ELh0EE7reg_getEv
-                0x000000000000213c       0x16 bin/mcal_wdg.o
-                0x000000000000213c                _ZN4mcal3reg6accessIhhLh52ELh0EE7reg_getEv
- .text._ZN4mcal3reg6accessIhhLh52ELh0EE7reg_setEv
-                0x0000000000002152       0x16 bin/mcal_wdg.o
-                0x0000000000002152                _ZN4mcal3reg6accessIhhLh52ELh0EE7reg_setEv
- .text._ZN4mcal3reg6accessIhhLh96ELh24EE7reg_setEv
-                0x0000000000002168       0x18 bin/mcal_wdg.o
-                0x0000000000002168                _ZN4mcal3reg6accessIhhLh96ELh24EE7reg_setEv
- .text._ZN4mcal3reg6accessIhhLh96ELh11EE7reg_setEv
-                0x0000000000002180       0x18 bin/mcal_wdg.o
-                0x0000000000002180                _ZN4mcal3reg6accessIhhLh96ELh11EE7reg_setEv
- .text._ZN4mcal3irq11disable_allEv
-                0x0000000000002198       0x10 bin/os.o
-                0x0000000000002198                _ZN4mcal3irq11disable_allEv
- .text._ZNSt5arrayIN2os18task_control_blockELj2EED2Ev
-                0x00000000000021a8       0x48 bin/os.o
-                0x00000000000021a8                _ZNSt5arrayIN2os18task_control_blockELj2EED1Ev
-                0x00000000000021a8                _ZNSt5arrayIN2os18task_control_blockELj2EED2Ev
- .text._ZN4util5timerImE12microsecondsImEEmRKT_
-                0x00000000000021f0       0x2a bin/os.o
-                0x00000000000021f0                _ZN4util5timerImE12microsecondsImEEmRKT_
- .text._ZNKSt5arrayIN2os18task_control_blockELj2EE6cbeginEv
-                0x000000000000221a       0x1c bin/os.o
-                0x000000000000221a                _ZNKSt5arrayIN2os18task_control_blockELj2EE6cbeginEv
- .text._ZNKSt5arrayIN2os18task_control_blockELj2EE4cendEv
-                0x0000000000002236       0x1e bin/os.o
-                0x0000000000002236                _ZNKSt5arrayIN2os18task_control_blockELj2EE4cendEv
- .text._ZN4util5timerImEC2ERKS1_
-                0x0000000000002254       0x3e bin/os_task_control_block.o
-                0x0000000000002254                _ZN4util5timerImEC2ERKS1_
-                0x0000000000002254                _ZN4util5timerImEC1ERKS1_
- .text._ZNSt5arrayIN2os18task_control_blockELj2EE4sizeEv
-                0x0000000000002292       0x12 bin/os_task_control_block.o
-                0x0000000000002292                _ZNSt5arrayIN2os18task_control_blockELj2EE4sizeEv
- .text._ZN4util9make_longIhjEET0_T_S2_
-                0x00000000000022a4       0x2c bin/crt0_init_ram.o
-                0x00000000000022a4                _ZN4util9make_longIhjEET0_T_S2_
- .text._ZSt4fillIPjjEvT_S1_RKT0_
-                0x00000000000022d0       0x3c bin/crt0_init_ram.o
-                0x00000000000022d0                _ZSt4fillIPjjEvT_S1_RKT0_
- .text._ZN10xalgorithm5xfillIPjjEEvT_S2_RKT0_
-                0x000000000000230c       0x68 bin/crt0_init_ram.o
-                0x000000000000230c                _ZN10xalgorithm5xfillIPjjEEvT_S2_RKT0_
- .text.libgcc.mul
-                0x0000000000002374       0x14 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
-                0x0000000000002374                __muluhisi3
- .text.libgcc.mul
-                0x0000000000002388       0x1e /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
-                0x0000000000002388                __umulhisi3
-                0x00000000000023a6                . = ALIGN (0x2)
-                0x00000000000023b0                . = ALIGN (0x10)
- *fill*         0x00000000000023a6        0xa aaaa
+                0x00000000000008fe        0x2 bin/app_led.o
+                0x00000000000008fe                _ZN8led_portIhhLh37ELh1EED0Ev
+ .text._ZN8led_portIhhLh43ELh7EED0Ev
+                0x0000000000000900        0x2 bin/app_led.o
+                0x0000000000000900                _ZN8led_portIhhLh43ELh7EED0Ev
+ .text._ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED0Ev
+                0x0000000000000902        0x2 bin/app_led.o
+                0x0000000000000902                _ZN7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEED0Ev
+ .text._ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED0Ev
+                0x0000000000000904        0x2 bin/app_led.o
+                0x0000000000000904                _ZN7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEED0Ev
+ .text.startup  0x0000000000000906       0xbc bin/app_led.o
+ .text.startup  0x00000000000009c2        0xa bin/sys_start.o
+                0x00000000000009c2                main
+                0x00000000000009cc                . = ALIGN (0x2)
+                0x00000000000009d0                . = ALIGN (0x10)
+ *fill*         0x00000000000009cc        0x4 aaaa
                 0x0000000000800100                . = 0x800100
                 0x0000000000800100                . = ALIGN (0x2)
 
-.data           0x0000000000800100      0x17c load address 0x00000000000023b0
+.data           0x0000000000800100       0x28 load address 0x00000000000009d0
                 0x0000000000800100                _data_begin = .
  *(.data)
  .data          0x0000000000800100        0x0 bin/port_pin.o
@@ -712,12 +306,10 @@ LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
  .data          0x0000000000800100        0x0 bin/crt0_init_ram.o
  .data          0x0000000000800100        0x0 bin/crt1.o
  .data          0x0000000000800100        0x0 bin/int_vect.o
- .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
  .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
  .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
  .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
  .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
- .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
  .data          0x0000000000800100        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
                 0x0000000000800100                . = ALIGN (0x2)
  *(.data)
@@ -725,83 +317,69 @@ LOAD /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
                 0x0000000000800100                . = ALIGN (0x2)
  *(.data*)
  *(.rodata)
- .rodata        0x0000000000800100       0x2e bin/app_led.o
- .rodata        0x000000000080012e       0x2e bin/mcal.o
- .rodata        0x000000000080015c        0x7 bin/mcal_gcc_cxx_completion.o
- .rodata        0x0000000000800163       0x2e bin/mcal_cpu.o
- .rodata        0x0000000000800191       0x2e bin/mcal_gpt.o
- .rodata        0x00000000008001bf       0x2e bin/mcal_wdg.o
- .rodata        0x00000000008001ed       0x2e bin/sys_start.o
- .rodata        0x000000000080021b       0x2e bin/crt0.o
-                0x000000000080024a                . = ALIGN (0x2)
- *fill*         0x0000000000800249        0x1 
+                0x0000000000800100                . = ALIGN (0x2)
  *(.rodata)
  *(.rodata*)
- .rodata._ZTV7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEE
-                0x000000000080024a        0xa bin/app_led.o
-                0x000000000080024a                _ZTV7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEE
- .rodata._ZTV7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE
-                0x0000000000800254        0xa bin/app_led.o
-                0x0000000000800254                _ZTV7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE
- .rodata._ZTV8led_portIhhLh43ELh7EE
-                0x000000000080025e        0xa bin/app_led.o
-                0x000000000080025e                _ZTV8led_portIhhLh43ELh7EE
  .rodata._ZTV8led_portIhhLh37ELh1EE
-                0x0000000000800268        0xa bin/app_led.o
-                0x0000000000800268                _ZTV8led_portIhhLh37ELh1EE
- .rodata._ZTV8led_base
-                0x0000000000800272        0xa bin/app_led.o
-                0x0000000000800272                _ZTV8led_base
-                0x000000000080027c                . = ALIGN (0x2)
+                0x0000000000800100        0xa bin/app_led.o
+                0x0000000000800100                _ZTV8led_portIhhLh37ELh1EE
+ .rodata._ZTV8led_portIhhLh43ELh7EE
+                0x000000000080010a        0xa bin/app_led.o
+                0x000000000080010a                _ZTV8led_portIhhLh43ELh7EE
+ .rodata._ZTV7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE
+                0x0000000000800114        0xa bin/app_led.o
+                0x0000000000800114                _ZTV7led_pwmI8pwm_typeIhhLh37ELh0ELh100EEXadL_ZN3app6ledPwm4pwm0EEEE
+ .rodata._ZTV7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEE
+                0x000000000080011e        0xa bin/app_led.o
+                0x000000000080011e                _ZTV7led_pwmI8pwm_typeIhhLh37ELh2ELh100EEXadL_ZN3app6ledPwm4pwm1EEEE
+                0x0000000000800128                . = ALIGN (0x2)
  *(.rodata*)
-                0x000000000080027c                _data_end = .
+                0x0000000000800128                _data_end = .
 
-.bss            0x000000000080027c       0x50 load address 0x000000000000252c
-                0x000000000080027c                _bss_begin = .
+.bss            0x0000000000800128       0x4c load address 0x00000000000009f8
+                0x0000000000800128                _bss_begin = .
  *(.bss)
- .bss           0x000000000080027c        0x0 bin/port_pin.o
- .bss           0x000000000080027c        0x0 bin/pwm_type.o
- .bss           0x000000000080027c        0x0 bin/led_base.o
- .bss           0x000000000080027c        0x0 bin/led_port.o
- .bss           0x000000000080027c        0x0 bin/led_pwm.o
- .bss           0x000000000080027c       0x23 bin/app_led.o
-                0x000000000080027c                _ZN3app7ledPort6led_b1E
-                0x000000000080027f                _ZN3app7ledPort6led_d7E
-                0x0000000000800282                _ZN3app6ledPwm4pwm0E
-                0x0000000000800285                _ZN3app6ledPwm10led_pwm_b0E
-                0x000000000080028a                _ZN3app6ledPwm4pwm1E
-                0x000000000080028d                _ZN3app6ledPwm10led_pwm_b1E
- .bss           0x000000000080029f        0x0 bin/mcal.o
- .bss           0x000000000080029f        0x0 bin/mcal_gcc_cxx_completion.o
- .bss           0x000000000080029f        0x0 bin/mcal_cpu.o
- .bss           0x000000000080029f        0x5 bin/mcal_gpt.o
- .bss           0x00000000008002a4        0x0 bin/mcal_irq.o
- .bss           0x00000000008002a4        0x0 bin/mcal_osc.o
- .bss           0x00000000008002a4        0x0 bin/mcal_wdg.o
- .bss           0x00000000008002a4       0x26 bin/os.o
- .bss           0x00000000008002ca        0x1 bin/os_task_control_block.o
- .bss           0x00000000008002cb        0x0 bin/sys_idle.o
- .bss           0x00000000008002cb        0x0 bin/sys_mon.o
- .bss           0x00000000008002cb        0x0 bin/sys_start.o
- .bss           0x00000000008002cb        0x0 bin/crt0.o
- .bss           0x00000000008002cb        0x0 bin/crt0_init_ram.o
- .bss           0x00000000008002cb        0x0 bin/crt1.o
- .bss           0x00000000008002cb        0x0 bin/int_vect.o
- .bss           0x00000000008002cb        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .bss           0x00000000008002cb        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
- .bss           0x00000000008002cb        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
- .bss           0x00000000008002cb        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
- .bss           0x00000000008002cb        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
- .bss           0x00000000008002cb        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
- .bss           0x00000000008002cb        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
-                0x00000000008002cc                . = ALIGN (0x2)
- *fill*         0x00000000008002cb        0x1 
+ .bss           0x0000000000800128        0x0 bin/port_pin.o
+ .bss           0x0000000000800128        0x0 bin/pwm_type.o
+ .bss           0x0000000000800128        0x0 bin/led_base.o
+ .bss           0x0000000000800128        0x0 bin/led_port.o
+ .bss           0x0000000000800128        0x0 bin/led_pwm.o
+ .bss           0x0000000000800128       0x1f bin/app_led.o
+                0x0000000000800128                _ZN3app6ledPwm10led_pwm_b1E
+                0x000000000080012d                _ZN3app6ledPwm10led_pwm_b0E
+                0x0000000000800132                _ZN3app6ledPwm4pwm1E
+                0x0000000000800135                _ZN3app6ledPwm4pwm0E
+                0x0000000000800138                _ZN3app7ledPort6led_d7E
+                0x000000000080013b                _ZN3app7ledPort6led_b1E
+ .bss           0x0000000000800147        0x0 bin/mcal.o
+ .bss           0x0000000000800147        0x0 bin/mcal_gcc_cxx_completion.o
+ .bss           0x0000000000800147        0x0 bin/mcal_cpu.o
+ .bss           0x0000000000800147        0x5 bin/mcal_gpt.o
+ .bss           0x000000000080014c        0x0 bin/mcal_irq.o
+ .bss           0x000000000080014c        0x0 bin/mcal_osc.o
+ .bss           0x000000000080014c        0x0 bin/mcal_wdg.o
+ .bss           0x000000000080014c       0x26 bin/os.o
+ .bss           0x0000000000800172        0x1 bin/os_task_control_block.o
+ .bss           0x0000000000800173        0x0 bin/sys_idle.o
+ .bss           0x0000000000800173        0x0 bin/sys_mon.o
+ .bss           0x0000000000800173        0x0 bin/sys_start.o
+ .bss           0x0000000000800173        0x0 bin/crt0.o
+ .bss           0x0000000000800173        0x0 bin/crt0_init_ram.o
+ .bss           0x0000000000800173        0x0 bin/crt1.o
+ .bss           0x0000000000800173        0x0 bin/int_vect.o
+ .bss           0x0000000000800173        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800173        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800173        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000800173        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
+ .bss           0x0000000000800173        0x0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000800174                . = ALIGN (0x2)
+ *fill*         0x0000000000800173        0x1 
  *(.bss)
  *(.bss*)
-                0x00000000008002cc                . = ALIGN (0x2)
+                0x0000000000800174                . = ALIGN (0x2)
  *(.bss*)
-                0x00000000008002cc                _bss_end = .
-                0x00000000000023b0                _rom_data_begin = LOADADDR (.data)
+                0x0000000000800174                _bss_end = .
+                0x00000000000009d0                _rom_data_begin = LOADADDR (.data)
 LOAD bin/port_pin.o
 LOAD bin/pwm_type.o
 LOAD bin/led_base.o
@@ -859,20 +437,17 @@ LOAD linker stubs
  .comment       0x0000000000000000       0x12 bin/crt1.o
  .comment       0x0000000000000000       0x12 bin/int_vect.o
 
-.stab           0x0000000000000000      0x2d0
- .stab          0x0000000000000000       0xd8 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
- .stab          0x00000000000000d8       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+.stab           0x0000000000000000       0xfc
+ .stab          0x0000000000000000       0x3c /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
                                          0xe4 (size before relaxing)
- .stab          0x0000000000000108       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .stab          0x000000000000003c       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
                                          0xc0 (size before relaxing)
- .stab          0x0000000000000138       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
+ .stab          0x000000000000006c       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_ctors.o)
                                          0xe4 (size before relaxing)
- .stab          0x0000000000000168       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
+ .stab          0x000000000000009c       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_dtors.o)
                                          0xe4 (size before relaxing)
- .stab          0x0000000000000198      0x108 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
-                                        0x114 (size before relaxing)
- .stab          0x00000000000002a0       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
+ .stab          0x00000000000000cc       0x30 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_tablejump2.o)
                                          0xa8 (size before relaxing)
 
-.stabstr        0x0000000000000000      0x268
- .stabstr       0x0000000000000000      0x268 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+.stabstr        0x0000000000000000      0x1d0
+ .stabstr       0x0000000000000000      0x1d0 /Volumes/crosspi/avrtools/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
